@@ -2,88 +2,83 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Culture of Kosovo | Discover Kosovo</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
 </head>
 <body>
 
   <!-- Header -->
-  <header>
-    <div class="logo">Discover Kosovo</div>
-    <nav>
+  <header class="culture-header fade-in-on-scroll">
+    <div class="culture-logo">Discover Kosovo</div>
+    <nav class="culture-nav">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="culture.html" class="active">Culture</a></li>
         <li><a href="nature.html">Nature</a></li>
-        <li><a href="contact.html">Contact</a></li>
         <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- Hero Section -->
-  <section class="hero culture-hero">
-    <div class="hero-text">
+  <section class="culture-hero fade-in-on-scroll">
+    <div class="culture-hero-text">
       <h1>Culture of Kosovo</h1>
       <p>
         A land where history, tradition, and creativity intertwine to tell the story of generations. 
         Experience the vibrant festivals, timeless crafts, and warm hospitality that define Kosovo’s soul.
       </p>
-      <button id="learnMoreBtn">Learn More</button>
+      <button id="cultureLearnBtn">Learn More</button>
+    </div>
+    <div class="culture-hero-image">
+      <img src="img/culture.jpg" alt="Culture of Kosovo" />
     </div>
   </section>
 
   <!-- Culture Cards -->
-  <section class="cards-section">
+  <section class="culture-highlights fade-in-on-scroll">
     <h2>Explore Kosovo’s Rich Culture</h2>
-    <div class="cards">
-      <div class="card" tabindex="0">
-        <img src="architectureee.jpg" alt="Heritage and Architecture" />
+    <div class="culture-cards">
+      <div class="culture-card">
+        <img src="img/architectureee.jpg" alt="Heritage and Architecture" />
         <h3>Architecture & Heritage</h3>
         <p>
-          Kosovo’s architectural gems range from the medieval Prizren Fortress to exquisite Ottoman mosques and ancient monasteries. 
-          These landmarks narrate centuries of resilience, faith, and artistic expression.
+          Kosovo’s architectural gems range from the medieval Prizren Fortress to exquisite Ottoman mosques and ancient monasteries.
         </p>
       </div>
-      <div class="card" tabindex="0">
-        <img src="kosovafood.jpg" alt="Kosovo Food and Cuisine" />
+      <div class="culture-card">
+        <img src="img/kosovafood.jpg" alt="Kosovo Food and Cuisine" />
         <h3>Food & Cuisine</h3>
         <p>
-          Savor the authentic flavors of Kosovo with dishes like Flija, Pite, and Baklava. 
-          Food here is more than nourishment — it’s a celebration of family, tradition, and community.
+          Savor the authentic flavors of Kosovo with dishes like Flija, Pite, and Baklava.
         </p>
       </div>
-      <div class="card" tabindex="0">
-        <img src="Handicrafts and Traditions.jpg" alt="Handicrafts and Traditions" />
+      <div class="culture-card">
+        <img src="img/Handicrafts and Traditions.jpg" alt="Handicrafts and Traditions" />
         <h3>Handicrafts & Traditions</h3>
         <p>
-          Handmade rugs, intricate embroidery, and traditional crafts showcase the creativity and dedication of Kosovo’s artisans, 
-          preserving cultural heritage through generations.
+          Handmade rugs, intricate embroidery, and traditional crafts showcase the creativity and dedication of Kosovo’s artisans.
         </p>
       </div>
     </div>
   </section>
 
-  <!-- Extra Info Section -->
-  <section class="culture-info">
+  <!-- Info Section -->
+  <section class="culture-info fade-in-on-scroll">
     <h2>Living Traditions & Festivals</h2>
     <p>
-      Kosovo is a vibrant tapestry where ancient traditions meet modern life. 
-      Festivals like <strong>Dokufest</strong> (international documentary film festival) and <strong>Ngom Fest</strong> (music festival) attract visitors worldwide, 
-      celebrating art, music, and community spirit. Village gatherings echo with traditional music, dance, and culinary delights, 
-      keeping the heart of Kosovo’s culture beating strong.
+      Festivals like <strong>Dokufest</strong> and <strong>Ngom Fest</strong> attract visitors worldwide, celebrating art, music, and community spirit.
     </p>
     <p>
-      Hospitality is a cornerstone of Kosovo’s identity — guests are welcomed with open arms and generous tables. 
-      Family values, storytelling, and craftsmanship continue to thrive, making Kosovo a unique cultural destination.
+      Hospitality is a cornerstone of Kosovo’s identity — guests are welcomed with open arms and generous tables.
     </p>
   </section>
 
   <!-- Quote Section -->
-  <section class="quote">
+  <section class="culture-quote fade-in-on-scroll">
     <blockquote>
       <p>
         "Culture is the soul of a nation – Kosovo keeps its soul alive through traditions, creativity, and heartfelt hospitality."
@@ -92,7 +87,14 @@
     </blockquote>
   </section>
 
-  <script src="script.js"></script>
+  <footer class="culture-footer fade-in-on-scroll">
+    <p>&copy; 2025 Discover Kosovo. All rights reserved.</p>
+  </footer>
+
+  <script src="js/culture.js"></script>
 </body>
 </html>
+
+
+
 

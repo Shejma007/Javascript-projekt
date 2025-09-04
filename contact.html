@@ -1,12 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Discover Kosovo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet" />
 </head>
 <body>
- 
-      
+
+  <!-- Header -->
+  <header class="contactpage-header">
+    <div class="contactpage-logo">Discover Kosovo</div>
+    <nav class="contactpage-nav">
+      <ul>
+        <li><a href="index.html" class="contactpage-link">Home</a></li>
+        <li><a href="culture.html" class="contactpage-link">Culture</a></li>
+        <li><a href="nature.html" class="contactpage-link">Nature</a></li>
+        <li><a href="gallery.html" class="contactpage-link">Gallery</a></li>
+        <li><a href="contact.html" class="contactpage-link contactpage-active">Contact</a></li>
+        <li><a href="about.html" class="contactpage-link">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contactpage-main">
+
+    <!-- Hero Section -->
+    <section class="contactpage-hero text-center">
+      <h1>Get in Touch with Us</h1>
+      <p>We’d love to hear from you! Whether you have questions, suggestions, or want to collaborate, feel free to reach out.</p>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contactpage-info">
+      <div class="contactpage-info-item">
+        <h2>Email</h2>
+        <p>info@discoverkosovo.com</p>
+      </div>
+      <div class="contactpage-info-item">
+        <h2>Phone</h2>
+        <p>+383 44 123 456</p>
+      </div>
+      <div class="contactpage-info-item">
+        <h2>Address</h2>
+        <p>123 Kosovo Street, Pristina, Kosovo</p>
+      </div>
+      <div class="contactpage-info-item">
+        <h2>Follow Us</h2>
+        <p>
+          <a href="#" class="contactpage-social-link">Facebook</a> |
+          <a href="#" class="contactpage-social-link">Instagram</a> |
+          <a href="#" class="contactpage-social-link">Twitter</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contactpage-form-section">
+      <h2>Send Us a Message</h2>
+      <form class="contactpage-form" action="#" method="post">
+        <label for="contactpage-name">Name</label>
+        <input type="text" id="contactpage-name" name="name" placeholder="Your Name" required>
+
+        <label for="contactpage-email">Email</label>
+        <input type="email" id="contactpage-email" name="email" placeholder="Your Email" required>
+
+        <label for="contactpage-subject">Subject</label>
+        <input type="text" id="contactpage-subject" name="subject" placeholder="Subject" required>
+
+        <label for="contactpage-message">Message</label>
+        <textarea id="contactpage-message" name="message" rows="6" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="contactpage-btn">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Map Section -->
+    <section class="contactpage-map">
+      <h2>Find Us Here</h2>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.123456789!2d21.1667!3d42.6667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sPristina%2C%20Kosovo!5e0!3m2!1sen!2sus!4v1693836165456!5m2!1sen!2sus" 
+        width="100%" 
+        height="400" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="contactpage-footer">
+    <p>&copy; 2025 Discover Kosovo. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
