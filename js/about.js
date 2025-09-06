@@ -22,3 +22,15 @@ document.addEventListener('DOMContentLoaded', () => {
       appearOnScroll.observe(fader);
     });
   });
+
+  // JavaScript për të shfaqur datën e krijimit të projektit
+document.addEventListener('DOMContentLoaded', () => {
+    const projectDateElement = document.getElementById('projectDate');
+
+    // Krijo datën (Gusht 2025)
+    const projectMonth = "August";
+    const projectYear = 2025;
+
+    // Vendos tekstin në elementin HTML
+    projectDateElement.textContent = `${projectMonth} ${projectYear}`;
+});
