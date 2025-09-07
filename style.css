@@ -1,4 +1,4 @@
-/* ==================== Reset bazik ==================== */
+/*  Reset bazik */
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* ==================== Ngjyra bazë ==================== */
+/* Ngjyra bazë  */
 :root {
   --soft-blue: #a3c4f3;
   --soft-green: #b7d7a8;
@@ -17,7 +17,7 @@
   --shadow-color: rgba(108, 99, 255, 0.3);
 }
 
-/* ==================== Body ==================== */
+/*  Body  */
 body {
   background-color: var(--soft-gray);
   color: var(--dark-gray);
@@ -26,7 +26,7 @@ body {
   overflow-x: hidden;
 }
 
-/* ==================== Header ==================== */
+/*  Header */
 header {
   background: white;
   box-shadow: 0 2px 8px var(--shadow-color);
@@ -51,7 +51,7 @@ header .logo {
   text-shadow: 1px 1px 3px var(--soft-blue);
 }
 
-/* ==================== Navigation ==================== */
+/*  Navigation  */
 nav ul {
   list-style: none;
   display: flex;
@@ -91,7 +91,7 @@ nav ul li a.active::after {
   width: 100%;
 }
 
-/* ==================== Hero Section ==================== */
+/*  Hero Section */
 .hero {
   display: flex;
   flex-wrap: wrap;
@@ -163,7 +163,7 @@ nav ul li a.active::after {
   transform: scale(1.05);
 }
 
-/* ==================== Highlights Section ==================== */
+/*  Highlights Section */
 .highlights {
   padding: 4rem 2rem;
   background-color: white;
@@ -234,7 +234,7 @@ nav ul li a.active::after {
   line-height: 1.4;
 }
 
-/* ==================== Info Section ==================== */
+/*  Info Section  */
 .info {
   padding: 3rem 2rem;
   background: linear-gradient(135deg, var(--soft-green), var(--soft-blue));
@@ -262,7 +262,7 @@ nav ul li a.active::after {
   line-height: 1.6;
 }
 
-/* ==================== Footer ==================== */
+/*  Footer */
 footer {
   background-color: white;
   text-align: center;
@@ -273,7 +273,7 @@ footer {
   user-select: none;
 }
 
-/* ==================== Animations ==================== */
+/* Animations */
 @keyframes slideDown {
   from { transform: translateY(-100%); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
@@ -294,7 +294,7 @@ footer {
   to { opacity: 1; transform: translateX(0); }
 }
 
-/* ==================== Responsive Design ==================== */
+/*  Responsive Design */
 @media (max-width: 1024px) {
   .hero {
     flex-direction: column;
@@ -357,7 +357,7 @@ footer {
 
 /*culture*/
 
-/* ==================== Reset bazik ==================== */
+/*  Reset bazik  */
 * {
   margin: 0;
   padding: 0;
@@ -373,7 +373,7 @@ body {
   font-size: 16px;
 }
 
-/* ==================== Hero Section ==================== */
+/* Hero Section  */
 .culture-hero {
   display: flex;
   flex-wrap: wrap;
@@ -445,7 +445,7 @@ body {
   transform: scale(1.05) rotate(1deg);
 }
 
-/* ==================== Culture Highlights Cards ==================== */
+/* Culture Highlights Cards  */
 .culture-highlights {
   padding: 3rem 2rem;
   background: #ffffff;
@@ -513,7 +513,7 @@ body {
   line-height: 1.4;
 }
 
-/* ==================== Info Section ==================== */
+/* Info Section */
 .culture-info {
   background: #f0f4f8;
   padding: 3rem 2rem;
@@ -541,7 +541,7 @@ body {
   margin-right: auto;
 }
 
-/* ==================== Quote Section ==================== */
+/* Quote Section */
 .culture-quote {
   background: #1976d2;
   color: #e3f2fd;
@@ -579,7 +579,7 @@ body {
   color: #bbdefb;
 }
 
-/* ==================== Footer ==================== */
+/*  Footer  */
 .culture-footer {
   background: #e3f2fd;
   text-align: center;
@@ -590,7 +590,7 @@ body {
   user-select: none;
 }
 
-/* ==================== Fade-in on scroll ==================== */
+/*  Fade-in on scroll  */
 .fade-in-on-scroll {
   opacity: 0;
   transform: translateY(20px);
@@ -602,7 +602,7 @@ body {
   transform: translateY(0);
 }
 
-/* ==================== Responsive Design ==================== */
+/*  Responsive Design  */
 @media (max-width: 1024px) {
   .culture-hero {
     flex-direction: column-reverse;
@@ -657,7 +657,7 @@ body {
 
 /*nature*/
 
-/* ==================== Ngjyra bazë dhe font ==================== */
+/*  Ngjyra bazë dhe font */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #f9fafb;
@@ -666,7 +666,7 @@ body {
   padding: 0;
 }
 
-/* ==================== Hero Section ==================== */
+/* Hero Section */
 .nature-hero {
   background: url('img/hero-nature.jpg') center center/cover no-repeat;
   padding: 6rem 1rem 4rem;
@@ -698,13 +698,13 @@ body {
   font-size: 1.25rem;
 }
 
-/* ==================== Animations ==================== */
+/* Animations  */
 @keyframes fadeInUp {
   0% { opacity: 0; transform: translateY(20px); }
   100% { opacity: 1; transform: translateY(0); }
 }
 
-/* ==================== Seasons Section ==================== */
+/*  Seasons Section */
 .nature-seasons h2 {
   font-weight: 700;
   color: #388e3c;
@@ -712,7 +712,7 @@ body {
   margin-bottom: 2rem;
 }
 
-/* ==================== Cards ==================== */
+/* Cards */
 .nature-card {
   border-radius: 12px;
   overflow: hidden;
@@ -763,7 +763,7 @@ body {
   line-height: 1.4;
 }
 
-/* ==================== Animate cards on scroll ==================== */
+/*  Animate cards on scroll */
 .animate-card {
   opacity: 0;
   transform: translateY(30px);
@@ -775,7 +775,7 @@ body {
   transform: translateY(0);
 }
 
-/* ==================== Modal image ==================== */
+/*  Modal image */
 .modal-content {
   border-radius: 12px;
   overflow: hidden;
@@ -788,7 +788,7 @@ body {
   width: 100%;
 }
 
-/* ==================== Responsive adjustments ==================== */
+/* Responsive adjustments */
 @media (max-width: 991px) {
   .nature-card img {
     height: 180px;
@@ -807,7 +807,7 @@ body {
   }
 }
 
-/* ==================== Ensure images always show fully ==================== */
+/*  Ensure images always show fully  */
 img.card-img-top {
   object-fit: cover;
   width: 100%;
@@ -815,7 +815,7 @@ img.card-img-top {
   max-height: 200px;
 }
 
-/* ==================== Prevent image cropping on small devices ==================== */
+/* Prevent image cropping on small devices  */
 @media (max-width: 575px) {
   img.card-img-top {
     max-height: 150px;
@@ -826,7 +826,7 @@ img.card-img-top {
 
 /*gallery*/
 
-/* ==================== Reset bazik ==================== */
+/*  Reset bazik */
 * {
   margin: 0;
   padding: 0;
@@ -841,7 +841,7 @@ body {
   overflow-x: hidden;
 }
 
-/* ==================== Main Container ==================== */
+/*  Main Container  */
 .naturepage-main {
   max-width: 1200px;
   margin: 2rem auto 4rem;
@@ -851,7 +851,7 @@ body {
   gap: 3rem;
 }
 
-/* ==================== Hero Section ==================== */
+/*  Hero Section  */
 .naturepage-hero {
   background: linear-gradient(135deg, #bbdefb 0%, #e3f2fd 100%);
   border-radius: 12px;
@@ -877,7 +877,7 @@ body {
   font-weight: 300;
 }
 
-/* ==================== Sections ==================== */
+/*  Sections  */
 .naturepage-section {
   display: flex;
   gap: 2rem;
@@ -897,7 +897,7 @@ body {
   flex-direction: row-reverse;
 }
 
-/* ==================== Section Images ==================== */
+/*Section Images  */
 .naturepage-image {
   flex: 1 1 50%;
   overflow: hidden;
@@ -935,7 +935,7 @@ body {
   opacity: 1;
 }
 
-/* ==================== Section Text ==================== */
+/* Section Text  */
 .naturepage-text {
   flex: 1 1 50%;
   color: #263238;
@@ -955,7 +955,7 @@ body {
   color: #455a64;
 }
 
-/* ==================== More Places Section ==================== */
+/* More Places Section */
 .naturepage-more-places {
   background: #e3f2fd;
   border-radius: 12px;
@@ -981,7 +981,7 @@ body {
   line-height: 1.6;
 }
 
-/* ==================== Footer ==================== */
+/*Footer */
 .naturepage-footer {
   background: #1565c0;
   color: #e3f2fd;
@@ -992,7 +992,7 @@ body {
   user-select: none;
 }
 
-/* ==================== Animations ==================== */
+/* Animations  */
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(30px); }
   to { opacity: 1; transform: translateY(0); }
@@ -1002,7 +1002,7 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* ==================== Responsive ==================== */
+/*  Responsive  */
 /* Tablet */
 @media (max-width: 900px) {
   .naturepage-section,
@@ -1044,7 +1044,7 @@ body {
 
 /*contact*/
 
-/* ==================== Reset bazik ==================== */
+/* Reset bazik  */
 * {
   margin: 0;
   padding: 0;
@@ -1063,7 +1063,7 @@ body {
   flex-direction: column;
 }
 
-/* ==================== Main Container ==================== */
+/*  Main Container  */
 .contactpage-main {
   flex: 1;
   max-width: 900px;
@@ -1072,7 +1072,7 @@ body {
   animation: fadeInUp 1s ease forwards;
 }
 
-/* ==================== Animations ==================== */
+/*  Animations  */
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
@@ -1094,7 +1094,7 @@ section.visible {
   transform: translateY(0);
 }
 
-/* ==================== Hero Section ==================== */
+/*  Hero Section  */
 .contactpage-hero {
   margin-bottom: 3rem;
   color: #2c3e50;
@@ -1118,7 +1118,7 @@ section.visible {
   line-height: 1.5;
 }
 
-/* ==================== Contact Info ==================== */
+/*  Contact Info  */
 .contactpage-info {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -1166,7 +1166,7 @@ section.visible {
   text-decoration: underline;
 }
 
-/* ==================== Contact Form ==================== */
+/*  Contact Form  */
 .contactpage-form-section {
   background: #b19797;
   padding: 2rem 2.5rem;
@@ -1243,7 +1243,7 @@ section.visible {
   transition: all 0.3s ease;
 }
 
-/* ==================== Map ==================== */
+/*  Map  */
 .contactpage-map {
   max-width: 900px;
   margin: 0 auto 4rem;
@@ -1274,7 +1274,7 @@ section.visible {
   transform: scale(1.02);
 }
 
-/* ==================== Footer ==================== */
+/*  Footer  */
 .contactpage-footer {
   background: #4a90e2;
   color: rgb(218, 207, 207);
@@ -1286,7 +1286,7 @@ section.visible {
   box-shadow: 0 -2px 8px rgb(0 0 0 / 0.1);
 }
 
-/* ==================== Responsive ==================== */
+/*  Responsive  */
 @media (max-width: 768px) {
   .contactpage-header { flex-direction: column; gap: 0.8rem; }
   .contactpage-nav ul { flex-wrap: wrap; justify-content: center; gap: 1rem; }
@@ -1303,7 +1303,7 @@ section.visible {
 
 /*about*/
 
-/* ==================== Reset bazik ==================== */
+/*  Reset bazik  */
 * {
   margin: 0;
   padding: 0;
@@ -1314,7 +1314,7 @@ section.visible {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* ==================== Ngjyra bazë ==================== */
+/*  Ngjyra bazë  */
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #a29bfe;
@@ -1327,7 +1327,7 @@ section.visible {
   --transition-speed: 0.4s;
 }
 
-/* ==================== Body ==================== */
+/*  Body  */
 body {
   background-color: var(--background-color);
   color: var(--text-color);
@@ -1338,7 +1338,7 @@ body {
   flex-direction: column;
 }
 
-/* ==================== Header & Navigation ==================== */
+/*  Header & Navigation  */
 header {
   background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
   padding: 1rem 2rem;
@@ -1374,7 +1374,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: #dfe6e9;
+  color: #c0e2f0;
   text-decoration: none;
   font-weight: 600;
   padding: 0.4rem 0.6rem;
@@ -1407,7 +1407,7 @@ nav ul li a.active::after {
   left: 0;
 }
 
-/* ==================== Hero Section ==================== */
+/*  Hero Section  */
 .aboutpage-hero {
   background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
   color: #fff;
@@ -1432,7 +1432,7 @@ nav ul li a.active::after {
   letter-spacing: 0.5px;
 }
 
-/* ==================== Animations ==================== */
+/*  Animations  */
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(30px); }
   to { opacity: 1; transform: translateY(0); }
@@ -1443,7 +1443,7 @@ nav ul li a.active::after {
   to { opacity: 1; }
 }
 
-/* ==================== Main Content ==================== */
+/*  Main Content  */
 .aboutpage-container {
   max-width: 900px;
   margin: 3rem auto 4rem;
@@ -1472,7 +1472,7 @@ nav ul li a.active::after {
   text-align: justify;
 }
 
-/* ==================== List Styling ==================== */
+/*  List Styling */
 .aboutpage-list {
   list-style: none;
   margin-top: 1rem;
@@ -1510,7 +1510,7 @@ nav ul li a.active::after {
   box-shadow: 0 8px 20px rgba(108, 99, 255, 0.3);
 }
 
-/* ==================== Team Section ==================== */
+/*  Team Section  */
 .aboutpage-team {
   background: var(--accent-color);
   padding: 3rem 1.5rem;
@@ -1538,7 +1538,7 @@ nav ul li a.active::after {
   font-style: italic;
 }
 
-/* ==================== Footer ==================== */
+/*  Footer */
 .aboutpage-footer {
   background: var(--primary-color);
   color: #fff;
@@ -1551,7 +1551,7 @@ nav ul li a.active::after {
   animation: fadeInUp 1.8s ease forwards;
 }
 
-/* ==================== Responsive ==================== */
+/*  Responsive */
 @media (max-width: 768px) {
   header { flex-direction: column; gap: 0.8rem; }
   nav ul { flex-wrap: wrap; justify-content: center; gap: 1rem; }
