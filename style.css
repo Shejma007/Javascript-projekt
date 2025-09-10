@@ -670,6 +670,8 @@ body {
 
   .culture-hero-image img {
     height: 250px;
+    width: 350px;
+  
   }
 
   .culture-cards {
@@ -866,6 +868,8 @@ body {
     padding: 3rem 1rem 2rem;
   }
 
+
+
   .nature-hero h1 {
     font-size: 1.8rem;
   }
@@ -911,7 +915,7 @@ body {
 
 /*  Hero Section  */
 .naturepage-hero {
-  background: linear-gradient(135deg, #fcd5d5 0%, #f8b4b4 100%);
+  background: linear-gradient(135deg, #ad9898 0%, #ca9f9f 100%);
   border-radius: 12px;
   padding: 3rem 2rem;
   text-align: center;
