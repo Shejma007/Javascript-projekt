@@ -11,7 +11,7 @@
   --soft-blue: #a3c4f3;       /* sfond i lehtë blu */
   --soft-green: #84a9ff;      /* blu për gradient */
   --soft-peach: #cce0ff;      /* blu e lehtë për kartat */
-  --soft-gray: #e6f0ff;       /* sfond i butë blu */
+  --soft-gray: #cadbf3;       /* sfond i butë blu */
   --dark-gray: #1a1a2e;       /* tekst i errët për kontrast */
   --accent-color: #3366ff;    /* blu e fortë për butona, link */
   --shadow-color: rgba(51, 102, 255, 0.3); /* hijë blu */
@@ -857,8 +857,8 @@ body {
   }
 
   .nature-card {
-    flex: 1 1 45%;
-    max-width: 45%;
+    flex: 1 1 300px;
+    max-width: 300px;
   }
 }
 
@@ -878,11 +878,14 @@ body {
     font-size: 1rem;
   }
 
+
+
   .nature-card {
-    flex: 1 1 100%;
-    max-width: 100%;
-    margin-bottom: 1rem;
+    flex: 1 1 300px;
+    max-width: 300px;
+    margin: 0 auto 1rem; /* auto nga të dy anët e qendron */
   }
+  
 }
 
 
@@ -1190,7 +1193,7 @@ section.visible {
   font-size: 2.8rem;
   margin-bottom: 0.5rem;
   letter-spacing: 1.1px;
-  background: linear-gradient(90deg, #f7e08f, #f4d35e); /* gradient yellow */
+  background: linear-gradient(90deg, #f7db77, #f7d456); /* gradient yellow */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1652,33 +1655,7 @@ nav ul li a.active::after {
   box-shadow: 0 8px 20px rgba(108, 99, 255, 0.3);
 }
 
-/*  Team Section  */
-.aboutpage-team {
-  background: var(--accent-color);
-  padding: 3rem 1.5rem;
-  text-align: center;
-  border-radius: var(--border-radius);
-  max-width: 700px;
-  margin: 0 auto 4rem;
-  box-shadow: 0 6px 15px var(--shadow-color);
-  animation: fadeIn 1.5s ease forwards;
-}
 
-.aboutpage-team h2 {
-  color: var(--primary-color);
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
-  letter-spacing: 1.2px;
-}
-
-.aboutpage-team p {
-  font-size: 1.1rem;
-  color: var(--text-light);
-  max-width: 500px;
-  margin: 0 auto;
-  line-height: 1.6;
-  font-style: italic;
-}
 
 /*  Footer */
 .aboutpage-footer {

@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const projectDateElement = document.getElementById('projectDate');
 
     // Krijo datën (Gusht 2025)
-    const projectMonth = "August";
+    const projectMonth = "September";
     const projectYear = 2025;
 
     // Vendos tekstin në elementin HTML
