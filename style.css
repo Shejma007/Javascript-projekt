@@ -303,6 +303,20 @@ footer {
     gap: 1.5rem;
   }
 
+  @media (max-width: 1024px) {
+    nav ul {
+      flex-direction: row;   
+      flex-wrap: wrap;       /* nëse nuk ka vend, kalojnë poshtë */
+      gap: 1rem;
+      justify-content: center;
+    }
+  
+    nav ul li a {
+      font-size: 1rem;
+      padding: 0.5rem 0.8rem;
+    }
+  }
+
   .hero-text, .hero-image {
     flex: 1 1 100%;
     max-width: 100%;
@@ -334,7 +348,7 @@ footer {
   }
 
   nav ul {
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     align-items: center;
   }
