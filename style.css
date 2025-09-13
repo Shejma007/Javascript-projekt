@@ -309,7 +309,9 @@ footer {
   }
 
   .hero-image img {
-    height: 300px;
+    height: 550px;
+    max-width: 100%;
+    border-radius: 10px;
   }
 
   .cards {
@@ -353,6 +355,7 @@ footer {
 
   .hero-image img {
     height: 250px;
+   
   }
 
   .cards {
@@ -638,7 +641,9 @@ body {
   }
 
   .culture-hero-image img {
-    height: 300px;
+    height: 550px;
+    max-width: 100%;
+    border-radius: 10px;
   }
 
   .culture-cards {
@@ -1083,7 +1088,9 @@ body {
   }
 
   .naturepage-image img {
-    height: 250px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
   }
 
   .naturepage-more-places h2 {
@@ -1108,9 +1115,11 @@ body {
   }
 
   .naturepage-image img {
-    height: 300px;
-    width: 400px;
-  }
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px; 
+}
+
 
   .naturepage-text h2 {
     font-size: 1.5rem;
