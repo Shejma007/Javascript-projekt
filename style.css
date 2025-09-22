@@ -8,13 +8,13 @@
 
 /* Ngjyra bazë të reja (nuanca blu) */
 :root {
-  --soft-blue: #a3c4f3;       /* sfond i lehtë blu */
-  --soft-green: #84a9ff;      /* blu për gradient */
-  --soft-peach: #cce0ff;      /* blu e lehtë për kartat */
-  --soft-gray: #cadbf3;       /* sfond i butë blu */
-  --dark-gray: #1a1a2e;       /* tekst i errët për kontrast */
-  --accent-color: #3366ff;    /* blu e fortë për butona, link */
-  --shadow-color: rgba(51, 102, 255, 0.3); /* hijë blu */
+  --soft-blue: #a3c4f3;      
+  --soft-green: #84a9ff;     
+  --soft-peach: #cce0ff;      
+  --soft-gray: #cadbf3;      
+  --dark-gray: #1a1a2e;       
+  --accent-color: #3366ff;    
+  --shadow-color: rgba(51, 102, 255, 0.3); 
 }
 
 /*  Body  */
