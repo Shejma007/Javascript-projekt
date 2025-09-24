@@ -1,6 +1,5 @@
 //culture
 
-// script.js
 
 document.addEventListener('DOMContentLoaded', () => {
     // Butoni "Learn More"

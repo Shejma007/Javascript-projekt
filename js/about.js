@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const projectDateElement = document.getElementById('projectDate');
 
-    // Krijo datën (Gusht 2025)
+    // Krijo datën (shtator 2025)
     const projectMonth = "September";
     const projectYear = 2025;
 

@@ -1,4 +1,4 @@
-//index
+
 
 // Smooth scroll kur klikohet butoni Explore More
 document.getElementById('exploreBtn').addEventListener('click', () => {

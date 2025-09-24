@@ -6,7 +6,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Ngjyra bazë të reja (nuanca blu) */
+/* (nuanca blu) */
 :root {
   --soft-blue: #a3c4f3;      
   --soft-green: #84a9ff;     
@@ -125,7 +125,7 @@ nav ul li a.active::after {
 
 #exploreBtn {
   background-color: var(--accent-color);
-  color: var(--soft-gray);
+  color: blue;
   border: none;
   padding: 0.75rem 2rem;
   font-size: 1.1rem;
@@ -405,7 +405,7 @@ footer {
 }
 
 body {
-  background: #f6f0fa; /* sfond i lehtë purple */
+  background: #f6f0fa;
   color: #333;
   line-height: 1.6;
   font-size: 16px;
@@ -429,7 +429,7 @@ body {
 
 .culture-hero-text h1 {
   font-size: 2.8rem;
-  color: #5e35b1; /* blu-violet */
+  color: #5e35b1; 
   margin-bottom: 1rem;
   letter-spacing: 1.2px;
 }
@@ -486,7 +486,7 @@ body {
 /* Culture Highlights Cards  */
 .culture-highlights {
   padding: 3rem 2rem;
-  background: #f3e5f5; /* light purple */
+  background: #f3e5f5; 
   text-align: center;
 }
 
@@ -725,11 +725,11 @@ body {
 
 /*nature*/
 
-/*  Ngjyra bazë dhe font */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #edf7ed; /* sfond i lehtë green */
-  color: #1b5e20; /* tekst i gjelbër i errët */
+  background: #edf7ed; 
+  color: #1b5e20; 
   margin: 0;
   padding: 0;
 }
@@ -747,7 +747,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(67, 160, 71, 0.6); /* overlay green */
+  background: rgba(67, 160, 71, 0.6); 
   z-index: 0;
 }
 
@@ -759,7 +759,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   animation: fadeInUp 1s ease forwards;
-  color: #1b5e20; /* titulli në dark green */
+  color: #1b5e20; /* titulli  */
 }
 
 .nature-hero p {
@@ -919,8 +919,8 @@ body {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: #fdecea; /* sfond i lehtë red */
-  color: #4a1a1a; /* tekst dark red */
+  background: #fdecea; 
+  color: #4a1a1a; 
   line-height: 1.6;
   overflow-x: hidden;
 }
@@ -948,14 +948,14 @@ body {
 .naturepage-hero-title {
   font-size: 2.8rem;
   font-weight: 700;
-  color: #b71c1c; /* titulli dark red */
+  color: #b71c1c; /* titulli */
   margin-bottom: 1rem;
   letter-spacing: 1.2px;
 }
 
 .naturepage-hero-subtitle {
   font-size: 1.25rem;
-  color: #6a1b1b; /* subtitle red */
+  color: #6a1b1b; /* subtitle  */
   max-width: 700px;
   margin: 0 auto;
   font-weight: 300;
@@ -1041,7 +1041,7 @@ body {
 
 /* More Places Section */
 .naturepage-more-places {
-  background: #f8d7da; /* light red */
+  background: #f8d7da; 
   border-radius: 12px;
   padding: 2.5rem 2rem;
   text-align: center;
@@ -1165,8 +1165,8 @@ body {
 }
 
 body {
-  background: #fff9e6; /* soft yellow sfond */
-  color: #5a4a1a; /* tekst dark yellow */
+  background: #fff9e6; 
+  color: #5a4a1a; /* teksti */
   line-height: 1.6;
   font-weight: 300;
   min-height: 100vh;
@@ -1238,7 +1238,7 @@ section.visible {
 }
 
 .contactpage-info-item {
-  background: #fff4cc; /* soft yellow card */
+  background: #fff4cc; 
   padding: 1.5rem 1.8rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(245, 211, 125, 0.15);

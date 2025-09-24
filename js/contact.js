@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.disabled = true;
       btn.style.cursor = 'wait';
   
-      // Simulo dërgimin me delay
+      // mesazhi sending
       setTimeout(() => {
         btn.textContent = 'Message Sent!';
         btn.style.background = 'linear-gradient(135deg, #2ecc71, #27ae60)';
